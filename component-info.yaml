@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ShopEase-ecr-repo"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-ecr-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "ShopEase-ecr-repo"
+  description: "Creating ECR repo for ehrs-app"
+  tags: ["aws-ecr"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
